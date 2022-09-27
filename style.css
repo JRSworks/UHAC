@@ -1,0 +1,39 @@
+body {
+      background-color:rgb(22, 83, 145);
+      text-align: center;
+    }
+.heading {
+  color:rgb(255, 255, 255);
+}
+ul {
+  font-size: 125%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+}
+li {
+  display: inline;
+  border-right: 1px solid;
+  border-color: black;
+  color: black;
+  float: left;
+}
+li a {
+  color: black;
+  padding: 1px 1px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: yellow;
+}
+h3 {
+  font-size:90%;
+  font-family:sans-serif;
+  color: yellow;
+}
